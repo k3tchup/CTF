@@ -28,6 +28,9 @@
 
 	enum4linux -a <host or IP>
 	
+### nmap 
+        
+	nmap -p 139,445 --script smb-vuln* <host or IP>
 	
 ### ASREPRoast
 
