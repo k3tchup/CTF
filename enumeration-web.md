@@ -14,6 +14,6 @@ I typically:
 
 ### dirb
 
-  dirb http://host /usr/share/wordlists/dirb/big.txt -X .php
+    dirb http://host /usr/share/wordlists/dirb/big.txt -X .php
   
   
