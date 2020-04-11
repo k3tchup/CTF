@@ -11,3 +11,9 @@ I typically:
 * disable recursion for initial pass
 * set about 70 threads
 * add an extension (PHP, JSP, etc) for whatever the site runs
+
+### dirb
+
+  dirb http://host /usr/share/wordlists/dirb/big.txt -X .php
+  
+  
