@@ -15,7 +15,7 @@
 	
 ### Anonymous RPC
 
-	rpcclient -U "" <host or IP>
+	rpcclient -U "" -N <host or IP>
 	
 	enumdomusers
 	as well as other ones, help for commands
