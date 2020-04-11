@@ -11,7 +11,7 @@
 	
 ### SMB Anonymous Shares
 
-	smbclient -L //server
+	smbclient -L //server -N
 	
 ### Anonymous RPC
 
