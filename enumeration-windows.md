@@ -1,6 +1,6 @@
 # Windows 
 
-## Enumeration with credentials
+## Enumeration without credentials
 ### DNS zone transfer
 
 	host -l domain.name dnsserver
