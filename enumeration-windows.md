@@ -57,6 +57,10 @@ If WinRM is listening and exposed
 
 	whoami /all
 	
+### Passwords in registry
+
+	reg query HKLM /f password /t REG_SZ /s
+	
 ### Your favorite priv escalation script
 
 	https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS/winPEASbat
