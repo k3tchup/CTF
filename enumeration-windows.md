@@ -65,6 +65,10 @@ If WinRM is listening and exposed
 
 	https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/tree/master/winPEAS/winPEASbat
 	
+### Search for files
+
+	Get-Childitem –Path <Folder> -File -Recurse -ErrorAction SilentlyContinue -Include *<search pattern>*
+	
 ### Kerberos
 
 #### Kerberoasting
