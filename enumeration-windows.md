@@ -57,6 +57,10 @@ If WinRM is listening and exposed
 
 	whoami /all
 	
+### PowerShell History
+
+	type %userprofile%\AppData\Roaming\Microsoft\Windows\PowerShell\PSReadline\ConsoleHost_history.txt 
+	
 ### Passwords in registry
 
 	reg query HKLM /f password /t REG_SZ /s
