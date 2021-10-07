@@ -15,5 +15,6 @@ I typically:
 ### dirb
 
     dirb http://host /usr/share/wordlists/dirb/big.txt -X .php
-  
+### gobuster for vhost enum
+    gobuster vhost -u http://host -w /usr/share/wordlists/vhosts/combined.txt -
   
