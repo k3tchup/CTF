@@ -2,10 +2,11 @@
 
 ### whatweb
 Identifies frameworks, web servers, etc.
-  whatweb http://host
+  
+    whatweb http://host
 
-## Nikto
-  nikto -h <host or IP>
+### Nikto
+    nikto -h <host or IP>
 
 ## dirb or dirbuster
 
@@ -24,5 +25,6 @@ I typically:
   
 ### wafw00f
 Identifies various WAFs that may run in front of the site
-  wafw00f <http://host>
+
+    wafw00f <http://host>
   
