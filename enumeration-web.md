@@ -28,3 +28,7 @@ Identifies various WAFs that may run in front of the site
 
     wafw00f <http://host>
   
+### CMSeek
+Looks for popular CMSs
+    
+    cmseek -u http://host
